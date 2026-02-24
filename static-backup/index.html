@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarang 2026 — GPC Kannur | The Spectrum of Technology and Culture</title>
+  <meta name="description"
+    content="Tarang 2026 is the annual tech and cultural fest of Government Polytechnic College Kannur. March 12 & 13 — Two days of innovation, art, competitions, and unforgettable experiences.">
+  <meta name="keywords"
+    content="Tarang 2026, GPC Kannur, tech fest, cultural fest, polytechnic, hackathon, workshops, Kerala">
+  <meta name="theme-color" content="#060c1a">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+</head>
+
+<body>
+
+  <!-- ============ SPLASH SCREEN ============ -->
+  <div id="splash-screen">
+    <div class="splash-bg-pattern"></div>
+    <div class="splash-embers" id="splash-embers"></div>
+    <div class="splash-content">
+      <img src="assets/logo.png" alt="Tarang Logo" class="splash-logo">
+      <div class="splash-date-text">MARCH 12 & 13, 2026</div>
+      <div class="splash-college">Government Polytechnic College Kannur</div>
+      <div class="splash-enter">— Click anywhere to enter —</div>
+    </div>
+  </div>
+
+  <!-- ============ PARTICLE CANVAS ============ -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- ============ NAVIGATION ============ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="assets/logo.png" alt="Tarang">
+        <span class="nav-logo-text">TARANG</span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#departments">Departments</a>
+        <a href="#events">Events</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#team">Team</a>
+        <a href="#faq">FAQ</a>
+        <a href="#register" class="nav-cta">Register</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============ MOBILE MENU ============ -->
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu-content">
+      <div class="mobile-menu-image">
+        <img src="assets/logo.png" alt="Tarang Logo">
+      </div>
+      <div class="mobile-menu-links">
+        <a href="#about" onclick="closeMobileMenu()">About</a>
+        <a href="#departments" onclick="closeMobileMenu()">Departments</a>
+        <a href="#events" onclick="closeMobileMenu()">Events</a>
+        <a href="#schedule" onclick="closeMobileMenu()">Schedule</a>
+        <a href="#team" onclick="closeMobileMenu()">Team</a>
+        <a href="#sponsors" onclick="closeMobileMenu()">Sponsors</a>
+        <a href="#register" onclick="closeMobileMenu()">Register</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ HERO SECTION ============ -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="assets/hero-bg.png" alt="Background">
+    </div>
+
+    <div class="glow-orb glow-orb-orange" style="width:350px;height:350px;top:10%;left:-8%;"></div>
+    <div class="glow-orb glow-orb-pink" style="width:250px;height:250px;bottom:15%;right:-5%;"></div>
+    <div class="glow-orb glow-orb-gold" style="width:300px;height:300px;top:50%;left:60%;"></div>
+
+    <div class="hero-content">
+      <div class="hero-college">Government Polytechnic College <span>Kannur</span></div>
+      <img src="assets/logo.png" alt="Tarang Logo" class="hero-logo-hero">
+      <img src="assets/tarang-name.png" alt="TARANG" class="hero-name-art">
+      <div class="hero-year">2 0 2 6</div>
+      <div class="hero-date"><span>March 12 & 13, 2026</span></div>
+      <div class="hero-buttons">
+        <a href="#register" class="btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 3h6v6M14 10l7-7M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+          </svg>
+          Register Now
+        </a>
+        <a href="#events" class="btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polygon points="10 8 16 12 10 16 10 8"></polygon>
+          </svg>
+          Explore Events
+        </a>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============ COUNTDOWN ============ -->
+  <section class="countdown-section" id="countdown">
+    <div class="container">
+      <div class="countdown-wrapper">
+        <div class="countdown-item reveal">
+          <div class="countdown-number" id="cd-days">00</div>
+          <div class="countdown-label">Days</div>
+        </div>
+        <span class="countdown-colon">:</span>
+        <div class="countdown-item reveal">
+          <div class="countdown-number" id="cd-hours">00</div>
+          <div class="countdown-label">Hours</div>
+        </div>
+        <span class="countdown-colon">:</span>
+        <div class="countdown-item reveal">
+          <div class="countdown-number" id="cd-minutes">00</div>
+          <div class="countdown-label">Minutes</div>
+        </div>
+        <span class="countdown-colon">:</span>
+        <div class="countdown-item reveal">
+          <div class="countdown-number" id="cd-seconds">00</div>
+          <div class="countdown-label">Seconds</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal-left">
+          <div class="about-image-container">
+            <img src="assets/cultural-bg.png" alt="Tarang Festival">
+            <div class="about-image-overlay"></div>
+          </div>
+          <div class="about-floating-card">
+            <div class="number">GPC</div>
+            <div class="label">Kannur</div>
+          </div>
+        </div>
+        <div class="about-text reveal-right">
+          <div class="section-label">— About Tarang —</div>
+          <h2 class="section-title">The Spectrum of <span class="highlight">Technology</span> and <span
+              class="highlight">Culture</span></h2>
+          <p>Tarang is the annual tech and cultural extravaganza of Government Polytechnic College Kannur — a vibrant
+            celebration where engineering brilliance meets artistic expression.</p>
+          <p>Across two electrifying days, students from all six departments showcase their innovations, compete in
+            cutting-edge technical events, and light up the stage with cultural performances that embody the spirit of
+            Kerala's finest polytechnic talent.</p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <div class="stat-number">6</div>
+              <div class="stat-label">Departments</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">30+</div>
+              <div class="stat-label">Events</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">2</div>
+              <div class="stat-label">Days</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DEPARTMENTS ============ -->
+  <section class="section depts-section" id="departments">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">— Departments —</div>
+        <h2 class="section-title">Six Departments, <span class="highlight">One Spirit</span></h2>
+        <p class="section-desc">Each department hosts its own set of technical events tailored to their domain
+          expertise.</p>
+      </div>
+      <div class="depts-grid" id="depts-grid">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EVENTS ============ -->
+  <section class="section events-section" id="events">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">— Events —</div>
+        <h2 class="section-title">Competitions & <span class="highlight">Showcases</span></h2>
+        <p class="section-desc">Technical battles, cultural showdowns, and everything in between.</p>
+      </div>
+
+      <div class="events-tabs reveal" id="events-tabs">
+        <button class="event-tab active" data-category="all">All Events</button>
+        <button class="event-tab" data-category="tech">Technical</button>
+        <button class="event-tab" data-category="cultural">Cultural</button>
+        <button class="event-tab" data-category="flagship">Flagship</button>
+      </div>
+
+      <div class="events-grid" id="events-grid"></div>
+    </div>
+  </section>
+
+  <!-- ============ SCHEDULE ============ -->
+  <section class="section schedule-section" id="schedule">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">— Schedule —</div>
+        <h2 class="section-title">Two Days of <span class="highlight">Brilliance</span></h2>
+        <p class="section-desc">Here's what's happening across both days of Tarang 2026.</p>
+      </div>
+
+      <div class="schedule-days-nav reveal" id="schedule-days-nav">
+        <button class="schedule-day-btn active" data-day="0">Day 1 — March 12</button>
+        <button class="schedule-day-btn" data-day="1">Day 2 — March 13</button>
+      </div>
+
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </section>
+
+  <!-- ============ TEAM ============ -->
+  <section class="section" id="team">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">— Our Team —</div>
+        <h2 class="section-title">The <span class="highlight">Force</span> Behind Tarang</h2>
+        <p class="section-desc">Meet the passionate team that brings this festival to life.</p>
+      </div>
+      <div class="team-grid" id="team-grid"></div>
+    </div>
+  </section>
+
+  <!-- ============ SPONSORS ============ -->
+  <section class="section" id="sponsors">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">— Sponsors —</div>
+        <h2 class="section-title">Our <span class="highlight">Partners</span></h2>
+        <p class="section-desc">Proudly supported by industry leaders who believe in student innovation.</p>
+      </div>
+      <div class="sponsors-tiers reveal">
+        <div class="sponsor-tier">
+          <div class="sponsor-tier-label tier-title">Title Sponsor</div>
+          <div class="sponsor-placeholder">Coming Soon</div>
+        </div>
+        <div class="sponsor-tier">
+          <div class="sponsor-tier-label tier-platinum">Platinum Sponsors</div>
+          <div class="sponsor-placeholder">Coming Soon</div>
+        </div>
+        <div class="sponsor-tier">
+          <div class="sponsor-tier-label tier-gold">Gold Sponsors</div>
+          <div class="sponsor-placeholder">Coming Soon</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">— FAQ —</div>
+        <h2 class="section-title">Got <span class="highlight">Questions?</span></h2>
+      </div>
+      <div class="faq-list" id="faq-list"></div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-section" id="register">
+    <div class="glow-orb glow-orb-orange" style="width:450px;height:450px;top:-15%;left:25%;"></div>
+    <div class="glow-orb glow-orb-pink" style="width:300px;height:300px;bottom:-10%;right:10%;"></div>
+    <div class="container">
+      <div class="cta-content reveal">
+        <h2 class="cta-title">Be Part of <br><span class="gradient-text" style="font-size:inherit;">Tarang 2026</span>
+        </h2>
+        <p class="cta-desc">Don't miss the most awaited fest of GPC Kannur. Register now and be part of the spectrum of
+          technology and culture.</p>
+        <a href="#" class="btn-primary" style="font-size:1.05rem; padding: 17px 42px;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 3h6v6M14 10l7-7M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+          </svg>
+          Register for Tarang 2026
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="assets/logo.png" alt="Tarang">
+            <span class="footer-logo-text">TARANG 2026</span>
+          </div>
+          <p>The Spectrum of Technology and Culture. Annual tech and cultural fest of Government Polytechnic College
+            Kannur.</p>
+          <div class="footer-socials">
+            <a href="#" class="footer-social-link" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" class="footer-social-link" aria-label="YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z">
+                </path>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+              </svg>
+            </a>
+            <a href="#" class="footer-social-link" aria-label="WhatsApp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                </path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <a href="#about">About</a>
+          <a href="#departments">Departments</a>
+          <a href="#events">Events</a>
+          <a href="#schedule">Schedule</a>
+        </div>
+        <div class="footer-column">
+          <h4>More</h4>
+          <a href="#team">Our Team</a>
+          <a href="#sponsors">Sponsors</a>
+          <a href="#faq">FAQ</a>
+          <a href="#register">Register</a>
+        </div>
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <a href="mailto:tarang@gptckannur.ac.in">tarang@gptckannur.ac.in</a>
+          <a href="#">GPC Kannur Campus</a>
+          <a href="#">Kannur, Kerala</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Tarang · GPC Kannur. All rights reserved.</p>
+        <p>The Spectrum of Technology and Culture</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ BACK TO TOP ============ -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+      stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

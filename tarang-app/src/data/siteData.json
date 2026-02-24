@@ -1,0 +1,810 @@
+{
+  "siteConfig": {
+    "title": "Tarang 2026",
+    "tagline": "The Spectrum of Technology and Culture",
+    "college": "Government Polytechnic College Kannur",
+    "dates": "March 12 & 13, 2026",
+    "countdownTarget": "2026-03-12T09:00:00+05:30",
+    "email": "tarang@gptckannur.ac.in",
+    "location": "GPTC Kannur Campus, Kannur, Kerala"
+  },
+  "departments": [
+    {
+      "id": "civil",
+      "name": "Civil Engineering",
+      "icon": "🏗️",
+      "description": "The Civil Engineering department brings the world of structural innovation to Tarang. Compete in events that test your ability to design, build, and analyze real-world construction challenges.",
+      "color": "#4a9eff",
+      "pdf": "TARANG-GPC KANNUR-CIVIL ENGINEERING.pdf",
+      "departmentEvents": [
+        {
+          "id": "civil-1",
+          "title": "Bridge Building Challenge",
+          "desc": "Design and construct a model bridge using popsicle sticks. The bridge must sustain maximum load while maintaining structural elegance.",
+          "date": "March 12",
+          "time": "10:00 AM",
+          "venue": "Civil Lab",
+          "team": "2–3 members",
+          "rules": [
+            "Materials will be provided",
+            "Time limit: 2 hours",
+            "Judged on load-bearing capacity and aesthetics"
+          ]
+        },
+        {
+          "id": "civil-2",
+          "title": "Surveying Competition",
+          "desc": "Demonstrate your surveying skills using theodolite and leveling instruments in a timed field exercise.",
+          "date": "March 12",
+          "time": "11:30 AM",
+          "venue": "Campus Ground",
+          "team": "2–3 members",
+          "rules": [
+            "Instruments provided",
+            "Accuracy is paramount",
+            "Time limit: 1.5 hours"
+          ]
+        },
+        {
+          "id": "civil-3",
+          "title": "Estimation Quiz",
+          "desc": "Test your knowledge of estimation, costing, and quantity surveying in this rapid-fire technical quiz.",
+          "date": "March 12",
+          "time": "2:00 PM",
+          "venue": "Seminar Hall A",
+          "team": "2 members",
+          "rules": [
+            "Multiple rounds",
+            "Top 3 teams advance to finals",
+            "No electronic devices"
+          ]
+        },
+        {
+          "id": "civil-4",
+          "title": "CAD Design Challenge",
+          "desc": "Design a building plan using AutoCAD within the given time. Judged on accuracy, detailing, and creativity.",
+          "date": "March 13",
+          "time": "10:00 AM",
+          "venue": "Computer Lab 1",
+          "team": "Individual",
+          "rules": [
+            "AutoCAD provided",
+            "Theme revealed on spot",
+            "Time limit: 2 hours"
+          ]
+        },
+        {
+          "id": "civil-5",
+          "title": "Concrete Cube Testing",
+          "desc": "Prepare and test concrete cube specimens. Demonstrate your understanding of mix design and material properties.",
+          "date": "March 13",
+          "time": "1:00 PM",
+          "venue": "Materials Lab",
+          "team": "2–3 members",
+          "rules": [
+            "Materials provided",
+            "Safety gear mandatory",
+            "Judged on compressive strength"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eee",
+      "name": "Electrical & Electronics",
+      "icon": "⚡",
+      "description": "The Electrical & Electronics department powers up Tarang with electrifying competitions. From circuit design to electrical machine troubleshooting, showcase your expertise in power and electronics.",
+      "color": "#f5c91a",
+      "pdf": "TARANG-GPC KANNUR-ELECTRICAL AND ELECTRONICS ENGINEERING.pdf",
+      "departmentEvents": [
+        {
+          "id": "eee-1",
+          "title": "Circuit Debugging",
+          "desc": "Find and fix faults in complex electrical circuits within a time limit. Speed and precision are key!",
+          "date": "March 12",
+          "time": "10:00 AM",
+          "venue": "EEE Lab 1",
+          "team": "Individual",
+          "rules": [
+            "Tools provided",
+            "3 circuits per round",
+            "Time limit: 45 minutes"
+          ]
+        },
+        {
+          "id": "eee-2",
+          "title": "Wiring Competition",
+          "desc": "Complete domestic and industrial wiring setups with precision. Neatness, safety, and speed all count.",
+          "date": "March 12",
+          "time": "11:30 AM",
+          "venue": "EEE Workshop",
+          "team": "2 members",
+          "rules": [
+            "All materials provided",
+            "Safety standards mandatory",
+            "Time limit: 1 hour"
+          ]
+        },
+        {
+          "id": "eee-3",
+          "title": "Electrical Quiz Bowl",
+          "desc": "Battle through multiple rounds of questions covering electrical machines, power systems, and electronics fundamentals.",
+          "date": "March 12",
+          "time": "2:00 PM",
+          "venue": "Seminar Hall B",
+          "team": "2–3 members",
+          "rules": [
+            "Prelims + Finals",
+            "Buzzer round in finals",
+            "No electronic devices"
+          ]
+        },
+        {
+          "id": "eee-4",
+          "title": "Transformer Design Challenge",
+          "desc": "Design and wind a small transformer to meet specified voltage and current ratings.",
+          "date": "March 13",
+          "time": "10:00 AM",
+          "venue": "EEE Lab 2",
+          "team": "2 members",
+          "rules": [
+            "Materials provided",
+            "Tested for output accuracy",
+            "Time limit: 2 hours"
+          ]
+        },
+        {
+          "id": "eee-5",
+          "title": "PLC Programming Contest",
+          "desc": "Program a PLC to control an automated sequence. Demonstrate your industrial automation skills.",
+          "date": "March 13",
+          "time": "1:00 PM",
+          "venue": "Automation Lab",
+          "team": "Individual",
+          "rules": [
+            "PLC kits provided",
+            "Problem statement on spot",
+            "Time limit: 1.5 hours"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ece",
+      "name": "Electronics Engineering",
+      "icon": "📡",
+      "description": "The Electronics Engineering department brings cutting-edge digital and analog challenges to Tarang. From embedded systems to communication circuits, test your electronics prowess.",
+      "color": "#e6236c",
+      "pdf": "TARANG-GPC KANNUR-ELECTRONICS ENGG.pdf",
+      "departmentEvents": [
+        {
+          "id": "ece-1",
+          "title": "PCB Design Challenge",
+          "desc": "Design a PCB layout for a given circuit schematic using EDA tools. Precision and optimization are key.",
+          "date": "March 12",
+          "time": "10:00 AM",
+          "venue": "ECE Lab 1",
+          "team": "Individual",
+          "rules": [
+            "EDA software provided",
+            "Schematic given on spot",
+            "Time limit: 2 hours"
+          ]
+        },
+        {
+          "id": "ece-2",
+          "title": "Arduino Challenge",
+          "desc": "Build a working prototype using Arduino to solve a real-world problem. Creativity meets electronics!",
+          "date": "March 12",
+          "time": "12:00 PM",
+          "venue": "ECE Project Lab",
+          "team": "2–3 members",
+          "rules": [
+            "Arduino kits provided",
+            "Sensors available",
+            "Time limit: 3 hours"
+          ]
+        },
+        {
+          "id": "ece-3",
+          "title": "Signal Processing Quiz",
+          "desc": "Test your knowledge of analog and digital signal processing, communication systems, and VLSI.",
+          "date": "March 12",
+          "time": "2:30 PM",
+          "venue": "Seminar Hall A",
+          "team": "2 members",
+          "rules": [
+            "Written + Buzzer rounds",
+            "Top 5 teams to finals",
+            "Calculators allowed"
+          ]
+        },
+        {
+          "id": "ece-4",
+          "title": "Soldering Challenge",
+          "desc": "Assemble a working electronic circuit on a PCB through expert soldering. Speed and quality matter!",
+          "date": "March 13",
+          "time": "10:30 AM",
+          "venue": "ECE Workshop",
+          "team": "Individual",
+          "rules": [
+            "Components provided",
+            "Safety gear mandatory",
+            "Judged on functionality and neatness"
+          ]
+        },
+        {
+          "id": "ece-5",
+          "title": "IoT Innovation Challenge",
+          "desc": "Build an IoT-based solution for smart campus or home automation using NodeMCU or ESP32.",
+          "date": "March 13",
+          "time": "1:00 PM",
+          "venue": "ECE Lab 2",
+          "team": "2–4 members",
+          "rules": [
+            "IoT modules provided",
+            "Cloud platform access given",
+            "Time limit: 3 hours"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mech",
+      "name": "Mechanical Engineering",
+      "icon": "⚙️",
+      "description": "The Mechanical Engineering department brings raw engineering power to Tarang. From precision machining to innovative design challenges, prove your mechanical mastery.",
+      "color": "#f27b1a",
+      "pdf": "TARANG-GPC KANNUR-MECHANICAL ENGINEERING.pdf",
+      "departmentEvents": [
+        {
+          "id": "mech-1",
+          "title": "CAD Modelling Contest",
+          "desc": "Create precision 3D models using SolidWorks or Fusion 360. Creativity meets engineering accuracy.",
+          "date": "March 12",
+          "time": "10:00 AM",
+          "venue": "CAD Lab",
+          "team": "Individual",
+          "rules": [
+            "Software provided",
+            "Model revealed on spot",
+            "Time limit: 2 hours"
+          ]
+        },
+        {
+          "id": "mech-2",
+          "title": "Lathe Machining Challenge",
+          "desc": "Demonstrate your machining skills on a lathe. Precision turning operations within tight tolerances.",
+          "date": "March 12",
+          "time": "11:30 AM",
+          "venue": "Machine Shop",
+          "team": "Individual",
+          "rules": [
+            "Materials provided",
+            "Safety protocols mandatory",
+            "Judged on dimensional accuracy"
+          ]
+        },
+        {
+          "id": "mech-3",
+          "title": "IC Engine Quiz",
+          "desc": "A rapid-fire quiz covering thermodynamics, IC engines, automobile engineering, and manufacturing processes.",
+          "date": "March 12",
+          "time": "2:00 PM",
+          "venue": "Seminar Hall B",
+          "team": "2–3 members",
+          "rules": [
+            "Multiple rounds",
+            "Visual round included",
+            "No electronic devices"
+          ]
+        },
+        {
+          "id": "mech-4",
+          "title": "Welding Competition",
+          "desc": "Showcase your arc welding expertise. Create strong, clean welds and demonstrate proper technique.",
+          "date": "March 13",
+          "time": "10:00 AM",
+          "venue": "Welding Shop",
+          "team": "Individual",
+          "rules": [
+            "All equipment provided",
+            "Safety gear mandatory",
+            "Judged on weld quality and appearance"
+          ]
+        },
+        {
+          "id": "mech-5",
+          "title": "Mechanism Design Challenge",
+          "desc": "Design and build a working mechanical mechanism using provided materials to perform a specified task.",
+          "date": "March 13",
+          "time": "1:00 PM",
+          "venue": "Mech Lab",
+          "team": "2–3 members",
+          "rules": [
+            "Materials provided",
+            "Must be functional",
+            "Time limit: 2.5 hours"
+          ]
+        },
+        {
+          "id": "mech-6",
+          "title": "Technical Paper Presentation",
+          "desc": "Present your research on emerging topics in mechanical engineering to a panel of experts.",
+          "date": "March 13",
+          "time": "3:00 PM",
+          "venue": "Conference Room",
+          "team": "1–2 members",
+          "rules": [
+            "10 min presentation + 5 min Q&A",
+            "PPT mandatory",
+            "Topic must be pre-registered"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "textile",
+      "name": "Textile Technology",
+      "icon": "🧵",
+      "description": "The Textile Technology department weaves creativity into Tarang with unique events that blend technical knowledge with artistic design. Explore the science behind fabrics and fashion.",
+      "color": "#a855f7",
+      "pdf": "TARANG-GPC KANNUR-TEXTILE TECHNOLOGY.pdf",
+      "departmentEvents": [
+        {
+          "id": "textile-1",
+          "title": "Fabric Identification Challenge",
+          "desc": "Identify different types of fabrics, fibers, and weave patterns through visual and tactile examination.",
+          "date": "March 12",
+          "time": "10:00 AM",
+          "venue": "Textile Lab 1",
+          "team": "Individual",
+          "rules": [
+            "Samples provided",
+            "Written answers",
+            "Time limit: 45 minutes"
+          ]
+        },
+        {
+          "id": "textile-2",
+          "title": "Draping & Design Contest",
+          "desc": "Create an innovative garment design using draping techniques on a mannequin with provided fabrics.",
+          "date": "March 12",
+          "time": "12:00 PM",
+          "venue": "Design Studio",
+          "team": "2 members",
+          "rules": [
+            "Fabrics and tools provided",
+            "Theme based",
+            "Time limit: 2 hours"
+          ]
+        },
+        {
+          "id": "textile-3",
+          "title": "Textile Quiz",
+          "desc": "Test your knowledge covering textile fibers, spinning, weaving, dyeing, and fabric finishing processes.",
+          "date": "March 12",
+          "time": "2:30 PM",
+          "venue": "Seminar Hall A",
+          "team": "2–3 members",
+          "rules": [
+            "Prelims + Finals",
+            "Visual identification round",
+            "No reference materials"
+          ]
+        },
+        {
+          "id": "textile-4",
+          "title": "Natural Dyeing Workshop",
+          "desc": "Learn and demonstrate eco-friendly natural dyeing techniques using plant-based dyes on cotton fabric.",
+          "date": "March 13",
+          "time": "10:00 AM",
+          "venue": "Dyeing Lab",
+          "team": "2 members",
+          "rules": [
+            "Materials provided",
+            "Best results win prizes",
+            "Eco-friendliness valued"
+          ]
+        },
+        {
+          "id": "textile-5",
+          "title": "Pattern Making Challenge",
+          "desc": "Create accurate garment patterns from given specifications. Precision and speed determine the winner.",
+          "date": "March 13",
+          "time": "1:00 PM",
+          "venue": "Textile Lab 2",
+          "team": "Individual",
+          "rules": [
+            "Tools provided",
+            "Specifications given on spot",
+            "Time limit: 1.5 hours"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wood",
+      "name": "Wood & Paper Technology",
+      "icon": "🪵",
+      "description": "The Wood & Paper Technology department showcases the art and science of wood craftsmanship and paper engineering. From furniture design to paper testing, explore sustainable material technologies.",
+      "color": "#22c55e",
+      "pdf": "TARANG-GPC KANNUR-WOOD AND PAPER TECHNOLOGY.pdf",
+      "departmentEvents": [
+        {
+          "id": "wood-1",
+          "title": "Wood Carving Contest",
+          "desc": "Create intricate wood carvings using hand tools. Artistry and craftsmanship take center stage.",
+          "date": "March 12",
+          "time": "10:00 AM",
+          "venue": "Wood Workshop",
+          "team": "Individual",
+          "rules": [
+            "Tools and wood provided",
+            "Design theme given",
+            "Time limit: 3 hours"
+          ]
+        },
+        {
+          "id": "wood-2",
+          "title": "Furniture Design Challenge",
+          "desc": "Design a functional furniture piece using sustainable wood materials. Innovation meets sustainability.",
+          "date": "March 12",
+          "time": "11:30 AM",
+          "venue": "Design Lab",
+          "team": "2–3 members",
+          "rules": [
+            "Design on paper/CAD",
+            "Scale model optional",
+            "Judged on innovation and feasibility"
+          ]
+        },
+        {
+          "id": "wood-3",
+          "title": "Paper Testing Quiz",
+          "desc": "Test your knowledge of paper properties, pulping processes, and quality testing methodologies.",
+          "date": "March 12",
+          "time": "2:00 PM",
+          "venue": "Seminar Hall B",
+          "team": "2 members",
+          "rules": [
+            "Written + Practical rounds",
+            "Lab testing included",
+            "Instruments provided"
+          ]
+        },
+        {
+          "id": "wood-4",
+          "title": "Wood Identification Challenge",
+          "desc": "Identify different wood species through visual examination, grain patterns, and physical properties.",
+          "date": "March 13",
+          "time": "10:00 AM",
+          "venue": "Wood Lab",
+          "team": "Individual",
+          "rules": [
+            "Specimens provided",
+            "Written + Verbal assessment",
+            "Time limit: 1 hour"
+          ]
+        },
+        {
+          "id": "wood-5",
+          "title": "Joinery Skills Competition",
+          "desc": "Demonstrate your woodworking joinery skills by creating precise wood joints using hand tools.",
+          "date": "March 13",
+          "time": "1:00 PM",
+          "venue": "Wood Workshop",
+          "team": "Individual",
+          "rules": [
+            "Tools provided",
+            "Joint type specified",
+            "Judged on precision and strength"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "title": "Project Expo",
+      "desc": "Showcase innovative projects from all departments. Present your best engineering solutions to a panel of experts.",
+      "category": "tech",
+      "badge": "Technical",
+      "date": "March 12",
+      "team": "2–4 members"
+    },
+    {
+      "id": "2",
+      "title": "Quiz Competition",
+      "desc": "Test your knowledge across technology, science, and general engineering in this multi-round quiz battle.",
+      "category": "tech",
+      "badge": "Technical",
+      "date": "March 12",
+      "team": "2–3 members"
+    },
+    {
+      "id": "3",
+      "title": "Circuit Debugging",
+      "desc": "Find and fix faults in complex circuits within a time limit. Speed and precision are key!",
+      "category": "tech",
+      "badge": "Technical",
+      "date": "March 12",
+      "team": "Individual"
+    },
+    {
+      "id": "4",
+      "title": "CAD Modelling",
+      "desc": "Design precision 3D models using CAD software. Creativity meets engineering accuracy.",
+      "category": "tech",
+      "badge": "Technical",
+      "date": "March 12",
+      "team": "Individual"
+    },
+    {
+      "id": "5",
+      "title": "Seminar Presentation",
+      "desc": "Present your research papers on emerging technologies and innovative engineering solutions.",
+      "category": "tech",
+      "badge": "Technical",
+      "date": "March 13",
+      "team": "1–2 members"
+    },
+    {
+      "id": "6",
+      "title": "Bridge Building",
+      "desc": "Design and construct model bridges to withstand maximum load. Test your structural engineering skills.",
+      "category": "tech",
+      "badge": "Technical",
+      "date": "March 13",
+      "team": "2–3 members"
+    },
+    {
+      "id": "7",
+      "title": "Line Follower Robot",
+      "desc": "Build autonomous robots that can follow a path with speed and precision.",
+      "category": "tech",
+      "badge": "Technical",
+      "date": "March 13",
+      "team": "2–4 members"
+    },
+    {
+      "id": "8",
+      "title": "Treasure Hunt",
+      "desc": "A thrilling campus-wide hunt combining tech puzzles, riddles, and physical challenges.",
+      "category": "flagship",
+      "badge": "Flagship",
+      "date": "March 12",
+      "team": "3–4 members"
+    },
+    {
+      "id": "9",
+      "title": "Nrityanjali — Group Dance",
+      "desc": "Showcase your dance moves in this group dance competition spanning classical, folk, and contemporary styles.",
+      "category": "cultural",
+      "badge": "Cultural",
+      "date": "March 13",
+      "team": "6–12 members"
+    },
+    {
+      "id": "10",
+      "title": "Solo Singing",
+      "desc": "Let your voice shine! Perform any song of your choice and capture the hearts of the audience.",
+      "category": "cultural",
+      "badge": "Cultural",
+      "date": "March 12",
+      "team": "Individual"
+    },
+    {
+      "id": "11",
+      "title": "Mime & Skit",
+      "desc": "Tell compelling stories through mime or short skits. Creativity and expression take center stage.",
+      "category": "cultural",
+      "badge": "Cultural",
+      "date": "March 13",
+      "team": "5–10 members"
+    },
+    {
+      "id": "12",
+      "title": "Photography Contest",
+      "desc": "Capture the spirit of Tarang through your lens. Best shots across categories win prizes.",
+      "category": "cultural",
+      "badge": "Cultural",
+      "date": "Both Days",
+      "team": "Individual"
+    },
+    {
+      "id": "13",
+      "title": "Fashion Show",
+      "desc": "Walk the ramp with confidence and style. Showcase creativity in costume design and performance.",
+      "category": "flagship",
+      "badge": "Flagship",
+      "date": "March 13",
+      "team": "8–12 members"
+    },
+    {
+      "id": "14",
+      "title": "Art & Poster Making",
+      "desc": "Express your artistic vision on canvas. Themes will be revealed on the spot.",
+      "category": "cultural",
+      "badge": "Cultural",
+      "date": "March 12",
+      "team": "Individual"
+    }
+  ],
+  "schedule": [
+    {
+      "day": "Day 1 — March 12",
+      "events": [
+        {
+          "time": "9:00 AM",
+          "name": "Opening Ceremony",
+          "desc": "Grand inauguration by chief guest"
+        },
+        {
+          "time": "10:00 AM",
+          "name": "Technical Events Begin",
+          "desc": "Project Expo, Quiz, Circuit Debugging, CAD"
+        },
+        {
+          "time": "10:30 AM",
+          "name": "Art & Poster Making",
+          "desc": "Spot theme art competition"
+        },
+        {
+          "time": "11:00 AM",
+          "name": "Treasure Hunt",
+          "desc": "Campus-wide puzzle adventure"
+        },
+        {
+          "time": "12:00 PM",
+          "name": "Solo Singing Prelims",
+          "desc": "Singing auditions and selection"
+        },
+        {
+          "time": "2:00 PM",
+          "name": "Department Tech Events",
+          "desc": "Department-wise technical competitions"
+        },
+        {
+          "time": "4:00 PM",
+          "name": "Photography Walk",
+          "desc": "Campus photo challenge begins"
+        },
+        {
+          "time": "5:00 PM",
+          "name": "Cultural Evening",
+          "desc": "Open stage performances and jamming"
+        }
+      ]
+    },
+    {
+      "day": "Day 2 — March 13",
+      "events": [
+        {
+          "time": "9:30 AM",
+          "name": "Paper Presentations",
+          "desc": "Research paper competition"
+        },
+        {
+          "time": "10:00 AM",
+          "name": "Bridge Building & Robotics",
+          "desc": "Bridge Building, Line Follower Robot"
+        },
+        {
+          "time": "11:00 AM",
+          "name": "Mime & Skit",
+          "desc": "Drama and mime performances"
+        },
+        {
+          "time": "1:00 PM",
+          "name": "Solo Singing Finals",
+          "desc": "Final round of singing competition"
+        },
+        {
+          "time": "2:30 PM",
+          "name": "Group Dance — Nrityanjali",
+          "desc": "Grand inter-department dance battle"
+        },
+        {
+          "time": "4:00 PM",
+          "name": "Fashion Show",
+          "desc": "The grand ramp walk showcase"
+        },
+        {
+          "time": "5:30 PM",
+          "name": "Awards & Prize Distribution",
+          "desc": "Valedictory function with prizes"
+        },
+        {
+          "time": "6:30 PM",
+          "name": "Closing Ceremony",
+          "desc": "Grand finale and vote of thanks"
+        }
+      ]
+    }
+  ],
+  "team": [
+    {
+      "id": "1",
+      "name": "Fest Coordinator",
+      "role": "Overall Coordination",
+      "initials": "FC"
+    },
+    {
+      "id": "2",
+      "name": "Tech Head",
+      "role": "Technical Events",
+      "initials": "TH"
+    },
+    {
+      "id": "3",
+      "name": "Cultural Head",
+      "role": "Cultural Events",
+      "initials": "CH"
+    },
+    {
+      "id": "4",
+      "name": "Design Lead",
+      "role": "Creative & Design",
+      "initials": "DL"
+    },
+    {
+      "id": "5",
+      "name": "Sponsorship Head",
+      "role": "Sponsorship & PR",
+      "initials": "SH"
+    },
+    {
+      "id": "6",
+      "name": "Logistics Head",
+      "role": "Logistics & Planning",
+      "initials": "LH"
+    },
+    {
+      "id": "7",
+      "name": "Media Head",
+      "role": "Photography & Media",
+      "initials": "MH"
+    },
+    {
+      "id": "8",
+      "name": "Web Team Lead",
+      "role": "Website & Digital",
+      "initials": "WT"
+    }
+  ],
+  "faq": [
+    {
+      "id": "1",
+      "question": "Who can participate in Tarang 2026?",
+      "answer": "Tarang is primarily for students of Government Polytechnic College Kannur, but inter-college participants may be allowed for select events. A valid college ID is required."
+    },
+    {
+      "id": "2",
+      "question": "When and where is Tarang 2026?",
+      "answer": "Tarang 2026 will be held on March 12 & 13, 2026 at the Government Polytechnic College Kannur campus."
+    },
+    {
+      "id": "3",
+      "question": "Is there a registration fee?",
+      "answer": "Registration details will be announced soon. Some events may have a nominal fee. Keep an eye on our social media for updates."
+    },
+    {
+      "id": "4",
+      "question": "Can I participate in multiple events?",
+      "answer": "Yes! You can participate in as many events as you want, as long as they don't overlap in schedule."
+    },
+    {
+      "id": "5",
+      "question": "Which departments host technical events?",
+      "answer": "All six departments — Civil, Electrical & Electronics, Electronics, Mechanical, Textile Technology, and Wood & Paper Technology — host their own technical events."
+    },
+    {
+      "id": "6",
+      "question": "How are the events organized?",
+      "answer": "Day 1 focuses on technical events, quizzes, art, and prelims. Day 2 features finals, cultural performances, fashion show, and the grand closing ceremony."
+    }
+  ],
+  "customPages": []
+}
